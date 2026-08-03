@@ -16,24 +16,24 @@ public class SmartStockService {
 
     public void start(String reportPath){
 
-        // 1. read csv file
         try {
+
             var items = reportService.readStockReport(reportPath);
 
             items.forEach(item -> {
 
                 if(item.getQuantity() < item.getReorderThreshold()){
-                    // 2. call purchasing department api for each stock item
+                    // 1. read csv file
                     var reorderQuantity = calculateReorderQuantity(item);
+
+
+                    // 2. call purchasing department api for each stock item
 
                     // 3. persist items at mongodb
 
 
                 }
             });
-
-
-
 
         } catch (IOException e) {
             throw new RuntimeException(e);

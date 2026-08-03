@@ -1,0 +1,51 @@
+item_id,item_name,quantity,reorder_threshold,supplier_name,supplier_email,last_stock_update_time
+1f3b5d6a-4bce-4b90-8c0c-dc71a9f81e65,Apple AirPods Pro,4,10,Apple Inc.,support@apple.com,2024-09-08T14:30:00
+a3b5c8f9-2124-4d85-bc11-1f6312e05bd0,Logitech MX Master 3,20,15,Logitech,info@logitech.com,2024-09-09T09:00:00
+b0f8326c-3c35-4f71-91d2-5c2fbb4c8bb8,HP OfficeJet Pro 9015,7,10,HP Inc.,support@hp.com,2024-09-07T12:45:00
+6e9c24e7-5d4a-4c77-9ed3-ec45f8a55a4c,Samsung 32” 4K Monitor,12,10,Samsung Electronics,info@samsung.com,2024-09-09T16:20:00
+2f6d3a5e-2d42-4c88-8d6b-f1ea5a99fc63,Bose QuietComfort 35 II,5,10,Bose Corporation,contact@bose.com,2024-09-08T10:10:00
+9b2d5c8e-2e3a-4c58-93b9-a0e11f9d8a1e,Seagate Backup Plus 2TB,30,20,Seagate Technology,support@seagate.com,2024-09-08T15:05:00
+d7f2c7b9-f5a1-4b1e-915c-0d6f1d7f2c7b,Nintendo Switch,3,5,Nintendo,service@nintendo.com,2024-09-09T08:30:00
+6e2d4d8b-5a1b-4a87-985d-63f8b2f32e7e,Sony WH-1000XM4,25,20,Sony Electronics,help@sony.com,2024-09-09T11:15:00
+b14fc89b-5d95-4b5d-9b83-8969c6311eeb,Canon EOS R5,6,10,Canon Inc.,support@canon.com,2024-09-08T14:30:00
+d63f2a1d-4eae-4a35-bb85-b2fdf918bcfa,Nintendo Switch Pro Controller,22,15,Nintendo,info@nintendo.com,2024-09-09T09:00:00
+e5b8d622-9c3f-4b29-92a0-8e2b72e57e37,Dell XPS 13,4,10,Dell Technologies,support@dell.com,2024-09-07T12:45:00
+c42f8bb6-283a-4ecf-bec0-c62e2b6de09b,Asus ROG Strix GTX 3080,8,10,Asus,info@asus.com,2024-09-09T16:20:00
+3d5b7e6c-560f-42e4-8f2a-6c0cb7d00e4e,Microsoft Surface Laptop 4,14,10,Microsoft,contact@microsoft.com,2024-09-08T10:10:00
+9e0b02d9-7e3f-4e8d-920f-00a7437edcbb,Apple MacBook Pro 16,5,10,Apple Inc.,support@apple.com,2024-09-08T15:05:00
+f2b6d3f9-792a-4ec5-85d2-df49e3b78b3e,Google Nest Hub,30,20,Google,service@google.com,2024-09-09T08:30:00
+4e2bdf1e-3f28-4f15-9c4e-3d97a53f5b8d,Fitbit Charge 5,20,15,Fitbit Inc.,support@fitbit.com,2024-09-09T11:15:00
+d95d9f88-dad7-47f2-8a78-fd1c8289e97b,Sony A7 III,7,10,Sony Electronics,support@sony.com,2024-09-08T14:30:00
+2e4d9c6e-b76e-4f85-a15e-c682832b78f9,Lenovo ThinkPad X1 Carbon,16,10,Lenovo,info@lenovo.com,2024-09-09T09:00:00
+a4d2e8c0-c30d-4f0b-8923-f33b6a9d1b10,Logitech G502 Hero,9,10,Logitech,contact@logitech.com,2024-09-07T12:45:00
+c8e5a9d4-5d4a-4ec5-ae1d-bb3a85f00e23,Philips Hue White and Color Ambiance,18,15,Philips,info@philips.com,2024-09-09T16:20:00
+e0f8c8b4-9b0d-4e3c-851f-6a009a679f09,HP Envy 13,13,10,HP Inc.,support@hp.com,2024-09-08T10:10:00
+d2d95f4b-4b25-4f1f-9b27-6e3a9c485b8e,Apple Watch Series 8,11,10,Apple Inc.,contact@apple.com,2024-09-08T15:05:00
+b8c7a9d3-e21e-4e5c-b4b0-d9c062b741e4,GoPro Hero 11,6,10,GoPro Inc.,support@gopro.com,2024-09-09T08:30:00
+f0c5b76d-85b4-4a1e-9d2e-9d7369b3b1b3,Microsoft Xbox Series X,17,15,Microsoft,info@microsoft.com,2024-09-09T11:15:00
+2e5b0c0d-9e5a-47c2-8c9d-6e7c4e87b7c0,Beats by Dre Studio3,8,10,Beats Electronics,contact@beats.com,2024-09-08T14:30:00
+a1d6b9f3-4c7b-4b5d-9d8a-f5c0b7c0d5c8,Samsung Galaxy S21,21,15,Samsung Electronics,info@samsung.com,2024-09-09T09:00:00
+c6d9b4a1-2e5a-4a4d-8c5a-89c2b3a09b8d,Apple iPad Air 5th Gen,12,10,Apple Inc.,support@apple.com,2024-09-07T12:45:00
+b4e0c9a0-6c6a-4fbb-9d3b-7e2a1d7b2d10,Google Pixel 7 Pro,6,10,Google,info@google.com,2024-09-09T16:20:00
+d7f6a2b3-4c5d-4b8c-991e-2d9f3e1a4c9b,Canon EF 24-70mm f/2.8L II,9,10,Canon Inc.,contact@canon.com,2024-09-08T10:10:00
+a5d9c8b6-1e2f-4e4a-97c5-5b0c1d7b3e4b,Fitbit Versa 3,5,10,Fitbit Inc.,support@fitbit.com,2024-09-08T15:05:00
+e3b5d6c8-3f6e-4d2e-bb71-8a1b9c6d2f6d,LG UltraGear 27GN950-B,11,10,LG Electronics,info@lg.com,2024-09-09T08:30:00
+c2d5b1e4-9d2c-4c0b-bf8a-cd3b9e0f7d0e,HP Spectre x360,23,20,HP Inc.,contact@hp.com,2024-09-09T11:15:00
+b7c5d3f8-3c7e-4b3a-8c0d-5b2e8a2e9e3a,Dyson V11 Torque Drive,8,10,Dyson Ltd.,support@dyson.com,2024-09-08T14:30:00
+d9e8b4c0-4e6a-4a2b-9b7e-8a0d3e1c0c6e,Sony WH-XB900N,19,15,Sony Electronics,info@sony.com,2024-09-09T09:00:00
+f5d0a3b4-8c7d-4e4a-8a1e-3c4b8a7c9d2a,Microsoft Surface Pro 8,6,10,Microsoft,contact@microsoft.com,2024-09-07T12:45:00
+b0c6d9f1-2d6e-4a5e-bd3c-f2d1c7b9d3a4,Bose SoundLink Revolve+,10,10,Bose Corporation,support@bose.com,2024-09-09T16:20:00
+c8e5d6f3-7e1b-4c68-9e2f-d6a8c5d7b0c1,Lenovo Yoga 9i,14,10,Lenovo,info@lenovo.com,2024-09-08T10:10:00
+d6e9b8a2-5a3b-4d6a-8c9d-f0e6a1d7b8d0,Apple TV 4K,9,10,Apple Inc.,support@apple.com,2024-09-08T15:05:00
+f4b5c7d8-4e9c-4a8d-82a7-b7c0d9a1e2f4,GoPro Hero 10,6,10,GoPro Inc.,info@gopro.com,2024-09-09T
+ab5e4f2a-9b8d-4f77-9d5f-1c2b0d7e5b6a,Apple AirPods Max,3,10,Apple Inc.,support@apple.com,2024-09-08T14:30:00
+cd8a7b0c-6d5f-4c6e-b9e7-3b0e9d3c8e5a,Microsoft Surface Book 3,18,15,Microsoft,info@microsoft.com,2024-09-09T09:00:00
+ef6d8f7c-2c3b-4d5d-9a7c-4a1e7b2c8d3e,Logitech G Pro X Keyboard,9,10,Logitech,contact@logitech.com,2024-09-07T12:45:00
+b3c9a7d1-8e4f-4a6b-90f3-7d9e1b8a2c0e,HP Omen 25i Monitor,14,10,HP Inc.,support@hp.com,2024-09-09T16:20:00
+f0c5b7d8-2e8d-4a3c-9a0e-c9d8e7f6b5a1,Samsung Galaxy Tab S7+,11,10,Samsung Electronics,info@samsung.com,2024-09-08T10:10:00
+d5c1a9e8-5b3a-4d2e-b9e0-2a0c9f8b7d6e,Canon RF 50mm f/1.2L,7,10,Canon Inc.,support@canon.com,2024-09-08T15:05:00
+e6d4f8a2-2c1d-4e7b-b4c8-a1d2e0b5c7a4,Nintendo Switch OLED,5,10,Nintendo,contact@nintendo.com,2024-09-09T08:30:00
+a7e6c3b4-8d5f-4a6e-bc2d-9e7f0b1c8d6e,Beats Fit Pro,20,15,Beats Electronics,service@beats.com,2024-09-09T11:15:00
+c8d3a9b4-4e1b-4c8e-a6d0-8b1a9c6e7b5e,Google Pixel Buds Pro,13,10,Google,info@google.com,2024-09-08T14:30:00
+b2c7a8d9-5e6d-4a0b-9d3e-7f8b9c6d3a7b,Apple Mac Mini M2,22,15,Apple Inc.,contact@apple.com,2024-09-09T09:00:00
+f3b6c4e2-7a9b-4d5e-bc2d-5e6f0a3b7d8e,LG Gram 17,6,10,LG Electronics,info@lg.com,2024-09-07T12:45:00

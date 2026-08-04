@@ -1,16 +1,18 @@
 info:
-  name: Start
+  name: api Mockoon token
   type: http
-  seq: 1
+  seq: 2
 
 http:
   method: POST
-  url: http://localhost:8080/start
+  url: http://localhost:3001/api/token
   body:
     type: json
     data: |-
       {
-         "reportPath": "/Users/corthiago/dev/thiago/portfolio/smartstock/reports/stock.csv"
+        "grant_type": "client_credentials",
+        "client_id": "ABC",
+        "client_secret": "DEF"
       }
   auth: inherit
 

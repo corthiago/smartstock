@@ -1,0 +1,28 @@
+info:
+  name: api Mockoon token purchase request
+  type: http
+  seq: 3
+
+http:
+  method: POST
+  url: http://localhost:3001/api/purchases
+  headers:
+    - name: authorization
+      value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c
+  body:
+    type: json
+    data: |-
+      {
+        "item_id": "6e9c24e7-5d4a-4c77-9ed3",
+        "item_name": "Samsung 32”",
+        "supplier_name": "Samsung",
+        "supplier_email": "supplier@samsung.com",
+        "quantity": 20
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

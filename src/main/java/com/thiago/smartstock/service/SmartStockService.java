@@ -9,9 +9,11 @@ import java.io.IOException;
 public class SmartStockService {
 
     private final ReportService reportService;
+    private final PurchaseSectorService purchaseSectorService;
 
-    public SmartStockService(ReportService reportService) {
+    public SmartStockService(ReportService reportService, PurchaseSectorService purchaseSectorService) {
         this.reportService = reportService;
+        this.purchaseSectorService = purchaseSectorService;
     }
 
     public void start(String reportPath){
@@ -26,8 +28,8 @@ public class SmartStockService {
                     // 1. read csv file
                     var reorderQuantity = calculateReorderQuantity(item);
 
-
                     // 2. call purchasing department api for each stock item
+                    purchaseSectorService.sendPurchaseRequest(item, reorderQuantity);
 
                     // 3. persist items at mongodb
 

@@ -4,9 +4,16 @@
 
 SmartStock bridges a legacy inventory workflow and a purchasing department API. It reads a CSV stock snapshot, identifies items below their reorder threshold, submits replenishment requests with authenticated API calls, and records the outcome in MongoDB. The project was built as a backend engineering portfolio piece, with emphasis on integration design, business rules, and a reproducible local development environment.
 
-## Why it matters
+## Tech stack
 
-Manual stock replenishment is slow and easy to miss. SmartStock automates the decision and audit trail: low-stock products are detected from the daily report, a safety-stock-aware quantity is calculated, and every attempted purchase is persisted—whether the external request succeeds or fails.
+| Area | Technology |
+| --- | --- |
+| Language & framework | Java 21, Spring Boot 4 |
+| Persistence | MongoDB, Spring Data MongoDB |
+| HTTP integration | Spring Cloud OpenFeign |
+| CSV processing | OpenCSV |
+| Local infrastructure | Docker Compose, Mockoon |
+| API testing | Bruno collection |
 
 ## Architecture and workflow
 
@@ -71,17 +78,6 @@ sequenceDiagram
 - The purchase quantity is the reorder threshold plus a 20% safety margin, rounded up.
 - The purchasing integration uses OAuth-style client credentials and reuses the in-memory token until it expires.
 - Every replenishment attempt is recorded in MongoDB, including stock data, supplier data, calculated quantity, timestamp, and whether the request was successful.
-
-## Tech stack
-
-| Area | Technology |
-| --- | --- |
-| Language & framework | Java 21, Spring Boot 4 |
-| Persistence | MongoDB, Spring Data MongoDB |
-| HTTP integration | Spring Cloud OpenFeign |
-| CSV processing | OpenCSV |
-| Local infrastructure | Docker Compose, Mockoon |
-| API testing | Bruno collection |
 
 ## Run locally
 

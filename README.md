@@ -138,11 +138,6 @@ curl -i -X POST http://localhost:8080/start \
 
 The endpoint returns `202 Accepted` because processing runs asynchronously. Low-stock items will be sent to the Mockoon API and saved in the `purchase_requests` collection in MongoDB.
 
-### Run tests
-
-```bash
-./mvnw test
-```
 
 ## API reference
 
@@ -188,6 +183,4 @@ http-collection/     # Bruno API test collection
 reports/             # Sample CSV input
 ```
 
----
 
-Built by Thiago as a backend engineering portfolio project.
